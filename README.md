@@ -43,6 +43,26 @@ loopback-auth-server-repo/server/model-config.js
 ....
 ```
 
+##### AccessToken
+
+Add to the AccessToken one acl to read the token:
+
+```json
+"acls" : [
+    .....
+    {
+      "model" : "AccessToken",
+      "property": "findById",
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$owner",
+      "permission": "ALLOW"
+    }
+    .....
+]
+```
+
+
 
 ### Client Install
 
