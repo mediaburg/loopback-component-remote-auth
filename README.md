@@ -1,6 +1,6 @@
 # RemoteAuthToken
 
-Example Repo: [loopback-rest-remote-auth-token-example](https://github.com/mediaburg/loopback-rest-remote-auth-token-example)
+Example Repo: [loopback-component-remote-auth-example](https://github.com/mediaburg/loopback-component-remote-auth-example)
 
 ### Server Install
 ```sh
