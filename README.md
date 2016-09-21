@@ -43,7 +43,7 @@ loopback-auth-server-repo/server/model-config.js
 ....
 ```
 
-##### AccessToken
+#### AccessToken
 
 Add to the AccessToken one acl to read the token:
 
