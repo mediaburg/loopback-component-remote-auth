@@ -16,7 +16,7 @@ module.exports = function(app, options) {
 
             app.use(function (req, res, next) {
                 var tokenAppender = function (ctx, cb) {
-                    var accessToken = req.get("authorization");
+                    var accessToken = req.get("authorization") || req.query.access_token || null;
                     if (accessToken) {
                         if (!('headers' in ctx.req)) {
                             ctx.req.headers = {};
