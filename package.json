@@ -1,0 +1,24 @@
+{
+  "name": "loopback-component-remote-auth",
+  "version": "0.1.0",
+  "description": "Add AuthToken to remote REST calls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mediaburg/loopback-component-remote-auth.git"
+  },
+  "author": {
+    "name": "Waldemar Zahn",
+    "email": "waldemar.zahn@mediaburg.ch"
+  },
+  "keywords" : ["loopback", "component", "remote", "auth token", "token", "rest", "loopback-connector"],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mediaburg/loopback-component-remote-auth/issues"
+  },
+  "homepage": "https://github.com/mediaburg/loopback-component-remote-auth#readme",
+  "dependencies": {}
+}
